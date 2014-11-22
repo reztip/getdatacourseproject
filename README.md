@@ -2,7 +2,7 @@
 
 For this file, there is only one script.  The run_analysis script.  For a breakdown of steps, see below. See the markdown file for an explanation of the data: in includes README information from the data's source.
 
-#Pre-processing the data
+#$Pre-processing the data- NOTE THROUGHOUT THE PROJECT, ALL UNITS ARE KEPT THE SAME AS IN THE ORIGINAL DATA
 
 *First, this script sets the directory to my data directory.
 
@@ -12,7 +12,7 @@ For this file, there is only one script.  The run_analysis script.  For a breakd
 
 *The desired features variable gives the full list of column names in the datasets that have a desired standard deviation or mean attached.
 
-#Processing the test data
+##Processing the test data
 *The X_test, y_test and subject test datasets are parsed.
 
 *The subject test information includes labels on the test subjects, relevant for identifying individuals observed.
